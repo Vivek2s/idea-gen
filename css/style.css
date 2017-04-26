@@ -633,6 +633,7 @@ a:focus {
 .pic-selector input[type="checkbox"]:checked + label.xs-img-hover::after {
     font-family: "Material Icons";
     content: "done";
+    display: none;
     position: absolute;
     font-size: 24px;
     font-weight: normal;
