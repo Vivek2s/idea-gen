@@ -286,7 +286,7 @@
                 var verify = emailValidation($("#form-email").val());
                 if(verify) {
                     window.email = $("#form-email").val();
-                    if(parseData[saveData.category][saveData.subCat])    showTitle();
+                    if(parseData[saveData.category][saveData.subCat] || parseData[saveData.category]['keyCustom'])    showTitle();
                     $(".sec5-bg").fadeIn("slow", function() {
                         $(this).removeClass("hide");
                     });
