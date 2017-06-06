@@ -21,7 +21,7 @@
     padding: 15px 35px;
 
 }
-.sec-catergory {
+.sec-catergory.custom-select {
     float: left;
     max-width: 100%;
     padding: 0 10px;
@@ -103,6 +103,7 @@
 
     top: 65px !important;
 }
+.sec1-text + .sec1-button{padding:12px 30px 12px 60px;}
 .sec-catergory .selectize-control.single .selectize-input{min-height: auto; padding: 12px 20px}
     .sec-container {    margin: 40px auto 0;    width: 100%;}
     .sec1-button {    font-size: 18px;    margin-left: 0;    margin-top: 35px;    max-width: 100%;    min-height: auto;    min-width: auto;    padding: 12px 40px; }
@@ -230,7 +231,7 @@
     }
 }
 @media (max-width: 479px){
-    .sec-catergory {
+   .sec-catergory.custom-select{
 
     max-width: 100% !important;
     padding: 0 !important;

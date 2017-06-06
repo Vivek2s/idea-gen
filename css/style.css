@@ -1005,11 +1005,18 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
     text-transform: uppercase;
      transition:0.5s;
 }
+.sec-catergory input.sec-input{box-sizing:border-box;}
 .funnel-points {
     display: flex;
     float: left;
     margin: 50px 0 0;
     width: 100%;
+}
+.sec1-text + .sec1-button {
+    background-image: url("../images/mouse.png");
+    background-position: 15% center;
+    background-repeat: no-repeat;
+
 }
 figure.icons-part {
     background: #fb5f66 url("../images/sprite-icons.png") no-repeat scroll 45px center;
