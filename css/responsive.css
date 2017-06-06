@@ -2,15 +2,111 @@
    body{
        overflow-y: scroll;
    }
+   .funnel-points {
+    display: block;
+    float: left;
+    margin: 50px 0 0;
+    width: 100%;
+}
+.sec1-text h2 {
+    font-size: 28px;
+
+}
+.update-btn > a {
+  
+    font-size: 14px;
+    line-height: 1;
+    min-height: 45px;
+
+    padding: 15px 35px;
+
+}
+.sec-catergory {
+    float: left;
+    max-width: 100%;
+    padding: 0 10px;
+    position: relative;
+    width: 45% !important;
+}
+.sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-category {
+
+    text-align: left;
+    top: 67px !important; 
+}
+.sec-catergory.custom-select .selectize-control.single .selectize-input {
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 20px;
+    min-height: 45px;
+    padding: 14px 20px;
+    text-align: left;
+    text-transform: none;
+}
+.sec-catergory.custom-select .selectize-control.single .selectize-input input {
+    font-size: 14px;
+}
+.funnel-step {
+    border-bottom: 1px solid rgba(136, 136, 136, 0.533);
+    border-right: 0 none;
+    flex: 1 1 0;
+    float: left;
+    padding: 30px 0 10px;
+    text-align: center;
+    width: 100%;
+}
+.sec-container.custom-conatiner {
+    margin: 50px auto 0;
+    max-width: 900px;
+    width: 100%;
+}
+.update-btn {
+    float: left;
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+} 
+.update-btn a{float: none; display: inline-block;}
+   .sec2-step span {
+   
+    font-size: 18px;
+    height: 50px;
+    margin: 3px;
+    padding-top: 10px;
+    text-align: center;
+    width: 50px;
+}
    .sec-container{
         margin: 0 auto;
         margin-top: 100px;
         width:100%;
     }
+    .logo {    display: inline-block;    float: none;    padding: 30px 30px 0;}
     .sec2-bg .sec-container{
-        margin: 50px auto;
-        width: 90%;
+        margin: 0px auto;
+        width: 100%;
     }
+    .sec {
+    display: table-cell;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+    .sec-outr.sec1-bg .sec {
+    padding: 0 15px;
+    text-align: center;
+    vertical-align: top;
+}
+.sec2-text > br {
+    display: none;
+}
+.demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {
+
+    top: 65px !important;
+}
+.sec-catergory .selectize-control.single .selectize-input{min-height: auto; padding: 12px 20px}
+    .sec-container {    margin: 40px auto 0;    width: 100%;}
+    .sec1-button {    font-size: 18px;    margin-left: 0;    margin-top: 35px;    max-width: 100%;    min-height: auto;    min-width: auto;    padding: 12px 40px; }
+    .sec1-text h1 {    font-size: 26px;    width: 100%;}
     .logo-top{
         right: 0px;
         width: 100%;
@@ -18,27 +114,31 @@
         padding-right: 0;
         text-align: center;
         position: absolute;
-        top: -17px;
+        top: 0px;
+        padding-top: 15px;
     }
+    .logo-top img {
+    width: 120px;
+}
     .sec1-text{
-        width: 90%;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 0px;
     }
     .sec-catergory{
         width: 80%;
     }
-    .sec1-text span{
+   /* .sec1-text span{
         background: #f4f4f4;
         font-size: 44px;
         line-height: 74px;
         margin-left: 20px;
         padding: 5px 10px;
-    }
-    .sec1-button{
+    }*/
+  /*  .sec1-button{
         background: #f4f4f4;
         padding: 15px 60px;
         margin-left: 40px;
-    }
+    }*/
     .sec-catergory .selectize-control.single .selectize-input{
         font-size: 14px;
     }
@@ -55,28 +155,31 @@
         top: 86px !important;
         width: 100% !important;
     }
-    .sec2-step{
-        position: relative;
-        top: 30px;
-        left: 0px;
-        margin-bottom: 25px;
-    }
+    .sec-catergory input.sec-input{margin-top: 20px !important;}
+   .sec2-step {
+    left: 0;
+    margin-bottom: 10px;
+    position: relative;
+    top: 0;
+}
     .sec3-bg .sec-container{
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
     .sec4-bg .sec-container{
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
     .sec-catergory input.sec-input{
         font-size: 14px;
     }
-    .sec-button{
-        font-size: 14px;
-        padding: 15px 45px;
-        margin-top: 30px;
-    }
+   .sec-button {
+    font-size: 14px;
+    margin-top: 30px;
+    min-height: auto;
+    min-width: auto;
+    padding: 15px 45px;
+}
     .sec-cate-1{
         width: 80%;
         text-align: center;
@@ -123,10 +226,18 @@
         line-height: 24px;        
     }
     .sec2-text {
-        font-size: 44px;
+        font-size: 26px;
     }
 }
+@media (max-width: 479px){
+    .sec-catergory {
 
+    max-width: 100% !important;
+    padding: 0 !important;
+    position: relative;
+    width: 100% !important;
+}
+ }
 @media screen and (min-width: 480px) and (max-width: 480px) {
     /*.overlay-outer {
         height: 238px;
@@ -142,11 +253,17 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .sec-container{
-        margin: 0 auto;
-        margin-top: 70px;
-        width:100%;
-    }
+    .sec-container {
+    margin: 200px auto 0;
+    width: 100%;
+}
+.sec-catergory {
+    float: left;
+    max-width: 350px;
+    padding: 0 10px;
+    position: relative;
+    width: 37%;
+}
     .sec2-bg .sec-container{
         margin: 0 auto;
         width: 90%;
@@ -155,21 +272,25 @@
         width: 28%;
         text-align: center;
     }
+    .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {
+
+    top: 85px !important;
+}
     .sec1-text{
-        width: 90%;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 0px;
     }
-    .sec1-text span{
+ /*   .sec1-text span{
         background: #f4f4f4;
         font-size: 60px;
         line-height: 96px;
         margin-left: 20px;
         padding: 5px 10px;
-    }
-    .sec1-button{
+    }*/
+  /*  .sec1-button{
         background: #f4f4f4;
         margin-left: 40px;
-    }
+    }*/
     .sec2-step{
         position: relative;
         top: 0px;
@@ -188,7 +309,7 @@
         font-size: 14px;
     }
     .sec-button{
-        font-size: 14px;
+        font-size: 22px;
         padding: 15px 45px;
         margin-top: 30px;
     }
@@ -226,14 +347,14 @@
     
 }
 @media (min-width: 1024px) and (max-width: 1365px){
-    .sec1-text span{
+   /* .sec1-text span{
         font-size: 62px;
         line-height: normal;
         margin-left: 0px;
-    }
-    .sec1-button{
+    }*/
+   /* .sec1-button{
         margin-left: 5px;
-    }
+    }*/
     .sec-cate-1{
         width: 20%;
         text-align: center;
@@ -249,8 +370,17 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape){
-    
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .sec2-step {
+    left: -45px;
+    position: relative;
+    top: 0;
+    width: auto;
+}
+   .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {
+
+    top: 80px !important;
+}
 }   
 
 @media (min-width: 1680px) and (max-width: 1920px){
@@ -259,14 +389,20 @@
         margin-top: 130px;
         width: 1280px;
     }
+    .funnel-step {
+    border-right: 1px solid rgba(136, 136, 136, 0.533);
+    flex: 1 1 0;
+    padding: 0 15px 100px;
+    text-align: center;
+}
     .sec1-text{
-        margin-left: 20px;
+        margin-left: 0px;
     }
-    .sec1-text span{
+    /*.sec1-text span{
         font-size: 92px;
         line-height: 106px;
-    }
-    .sec1-button{
+    }*/
+   /* .sec1-button{
         padding: 23px 100px;
         float: left;
         border: 2px solid #0f0e0e;
@@ -279,7 +415,7 @@
         margin-top: 25px;
         background: #f4f4f4;
         box-shadow: -4px -1px 16px rgba(0,0,0,0.4);
-    }
+    }*/
     .sec2-bg .sec-container{
         margin: 0 auto;
         width: 1280px;
@@ -293,18 +429,16 @@
     .sec-button-update{
         padding: 18px 70px;
     }
-    .sec2-text{
-        font-size: 58px;
-    }
+   
     .sec-catergory .selectize-control.single .selectize-input{
         padding: 20px;
     }
     .sec-catergory input.sec-input{
         padding: 20px;
     }
-    .sec-button{
+  /*  .sec-button{
         padding: 18px 100px;
-    }
+    }*/
     .sec-catergory .selectize-control.single .selectize-dropdown{
         top: 101px !important;
     }
