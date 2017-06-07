@@ -169,7 +169,7 @@ a:focus {
     margin-top: 55px;
     min-height: 80px;
     min-width: 380px;
-    padding: 20px 85px;
+    padding: 20px 60px 20px 90px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -178,7 +178,7 @@ a:focus {
     color: #fff;
 }
 .sec2-bg{
-    background: url(../images/sec2-bg.jpg) no-repeat fixed bottom center;
+    background: url(../images/sec2-bg1.jpg) no-repeat fixed bottom center;
     background-size: cover;
 }
 .fixed{
@@ -208,7 +208,7 @@ a:focus {
     font-size: 24px;
     height: 60px;
     margin: 8px;
-    padding-top: 14px;
+    padding-top: 13px;
     text-align: center;
     width: 60px;
 }
@@ -234,7 +234,7 @@ a:focus {
 }
 .sec-catergory .selectize-control.single .selectize-input {
     background: #ffffff none repeat scroll 0 0;
-    border: 2px solid #d9dad3;
+    border: 1px solid #d9dad3;
     border-radius: 0;
     box-sizing: border-box;
     color: #0f0e0e;
@@ -263,7 +263,7 @@ a:focus {
 }
 .sec-catergory .selectize-control.single .selectize-dropdown{
     top: 91px !important;
-    border: 2px solid #0f0e0e;
+    border: 1px solid #0f0e0e;
     border-top: 0;
     width: 100% !important;
 }
@@ -272,7 +272,7 @@ a:focus {
     color: #0f0e0e;
 }
 .sec3-bg{
-    background: url(../images/sec2-bg.jpg) no-repeat fixed bottom center;
+    background: url(../images/sec2-bg1.jpg) no-repeat fixed bottom center;
     background-size: cover;
 }
 .sec3-bg .sec-container{
@@ -284,7 +284,7 @@ a:focus {
     font-size: 24px;
     line-height: normal;
     text-transform: none;
-    border: 2px solid #d9dad3;
+    border: 1px solid #d9dad3;
     border-radius: 0px;
     color: #666;
     margin-top: 35px;
@@ -294,8 +294,12 @@ a:focus {
        font-family: montserratregular;
        box-shadow: 3px 0 40px rgba(0, 0, 0, 0.2);
 }
+.sec-catergory input.sec-input::placeholder ,.sec-catergory input.sec-input::-moz-placeholder , .sec-catergory input.sec-input::-webkit-placeholder{
+    color: #666666;
+    opacity: 0.5;
+}
 .sec4-bg{
-    background: url(../images/sec2-bg.jpg) no-repeat fixed bottom center;
+    background: url(../images/sec2-bg1.jpg) no-repeat fixed bottom center;
     background-size: cover;
 }
 .sec4-bg .sec-container{
@@ -312,6 +316,7 @@ a:focus {
     border-radius: 50px;
     color: #ffffff;
     cursor: pointer;
+       box-shadow: 4px 12px 21px rgba(251, 95, 102, 0.4);
     float: left;
     font-family: montserratlight;
     font-size: 24px;
@@ -327,6 +332,15 @@ a:focus {
 }
 .sec-button:hover{
     opacity: 0.8;
+}
+.sec-catergory .selectize-control.single .selectize-input input::-moz-placeholder {
+    opacity: 1 !important;
+}
+.sec-catergory .selectize-control.single .selectize-input input::-webkit-placeholder {
+    opacity: 1 !important;
+}
+.sec-catergory .selectize-control.single .selectize-input input::-ms-placeholder {
+    opacity: 1 !important;
 }
 .sec-outr.sec5-bg .sec{
     display: block;
@@ -947,7 +961,7 @@ section.mouse-bg.sec-outr.new-sec-bg {
     max-width: 900px;
 }
 section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
-.sec-catergory {
+.sec-catergory.custom-select  {
     float: left;
     max-width: 350px;
     padding: 0 10px;
@@ -957,10 +971,11 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
 .sec-catergory.custom-select  .selectize-control.single .selectize-input input {
     color: #666666;
     font-size: 18px;
+    padding-top: 3px !important;
 }
 .sec-catergory.custom-select .selectize-control.single .selectize-input {
     background: #ffffff none repeat scroll 0 0;
-    border: 1px solid #808080;
+    border: 1px solid #d9dad3;
     border-radius: 0;
     box-sizing: border-box;
     color: #666666;
@@ -984,7 +999,7 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
     width: 100%;
 }
 .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select  .demo-default .selectize-dropdown.single.demo-default.selectize-category {
-    border-color: #808080;
+    border-color: #d9dad3;
     border-width: 1px;
     color: #999999;
     text-align: left;
@@ -1014,9 +1029,8 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
 }
 .sec1-text + .sec1-button {
     background-image: url("../images/mouse.png");
-    background-position: 15% center;
+    background-position: 70px center;
     background-repeat: no-repeat;
-
 }
 figure.icons-part {
     background: #fb5f66 url("../images/sprite-icons.png") no-repeat scroll 45px center;
