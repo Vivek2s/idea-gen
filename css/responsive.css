@@ -5,6 +5,9 @@
     .sec1-text h1 {    font-size: 48px;}
     .sec1-text h2{font-size: 42px}
     .sec2-text{font-size: 36px;}
+              figure.icons-part {    height: 100px;    width: 100px; background-position: 35px center}
+    .middle figure.icons-part {    background-position: -175px center;}
+    .bottom figure.icons-part {    background-position: -65px center;}
    .sec-catergory .selectize-control.single .selectize-input input {    font-size: 18px;      padding-top: 2px !important;}
    .sec-catergory .selectize-control.single .selectize-input {       font-size: 18px;    margin-top: 25px;    min-height: 55px;    padding: 15px 20px;}
      .sec-catergory.custom-select .selectize-control.single .selectize-input{   font-size: 18px;    margin-top: 25px;    min-height: 55px;    padding: 15px 20px;}
@@ -51,6 +54,9 @@
         .funnel-step h4 {    font-size: 15px;    }
          .funnel-step li a{ font-size: 15px;  }
            .sec1-text h2 {    font-size: 32px;}
+            figure.icons-part {    height: 100px;    width: 100px; background-position: 35px center}
+    .middle figure.icons-part {    background-position: -175px center;}
+    .bottom figure.icons-part {    background-position: -65px center;}
 
 }
 @media (min-width: 640px) and (max-width: 1023px){
@@ -103,6 +109,7 @@
    figure.icons-part {    height: 90px;    width: 90px; background-position: 30px center}
     .middle figure.icons-part {    background-position: -180px center;}
     .bottom figure.icons-part {    background-position: -70px center;}
+    .sec2-text{font-size: 18px}
 .sec-catergory.custom-select .selectize-control.single .selectize-dropdown {
     top: 66px !important;
     text-align: left;
@@ -153,7 +160,7 @@
     font-size: 14px;
 }
 .funnel-step {
-    border-bottom: 1px solid rgba(136, 136, 136, 0.533);
+    border-bottom:1px solid #d9dad3;
     border-right: 0 none;
     flex: 1 1 0;
     float: left;
@@ -195,7 +202,7 @@
     }
     .sec {
     display: table-cell;
-    padding: 0 15px;
+    padding: 0 30px;
     vertical-align: middle;
 }
     .sec-outr.sec1-bg .sec {
@@ -203,9 +210,7 @@
     text-align: center;
     vertical-align: top;
 }
-.sec2-text > br {
-    display: none;
-}
+
 .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {
 
     top: 65px !important;
@@ -335,9 +340,7 @@
         font-size: 20px;
         line-height: 24px;        
     }
-    .sec2-text {
-        font-size: 26px;
-    }
+   
 }
 @media (max-width: 479px){
    .sec-catergory.custom-select{
