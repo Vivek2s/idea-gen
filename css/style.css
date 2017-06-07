@@ -1011,12 +1011,14 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
     width: 100%;
 }
 .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select  .demo-default .selectize-dropdown.single.demo-default.selectize-category {
-    border-color: #d9dad3;
+    border-color: #d9dad3 !important;
     border-width: 1px;
     color: #999999;
     text-align: left;
     top: 75px !important;
 }
+.sec-catergory.custom-select .input-active input{width: 1px !important}
+.sec-catergory.custom-select  .selectize-control.single .selectize-dropdown{    border-color: #d9dad3 !important;}
 .update-btn > a {
     border: 2px solid #fb5f66;
     border-radius: 50px;
