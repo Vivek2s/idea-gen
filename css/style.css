@@ -256,6 +256,7 @@ a:focus {
 .sec-catergory .selectize-control.single .selectize-input input{
     font-size: 24px;
     color: #666;
+    width: auto !important;
 }
 .sec-catergory .selectize-control.single .selectize-input.dropdown-active:after{
     border-color: transparent transparent #999 transparent;
@@ -294,10 +295,18 @@ a:focus {
        font-family: montserratregular;
        box-shadow: 3px 0 40px rgba(0, 0, 0, 0.2);
 }
-.sec-catergory input.sec-input::placeholder ,.sec-catergory input.sec-input::-moz-placeholder , .sec-catergory input.sec-input::-webkit-placeholder{
-    color: #666666;
+.sec-catergory input.sec-input::placeholder {
     opacity: 0.5;
+     color: #666666;
 }
+.sec-catergory input.sec-input::-moz-placeholder {
+    color: #666666;
+      opacity: 0.5;
+}
+.sec-catergory input.sec-input::-webkit-placeholder{
+     color: #666666;
+       opacity: 0.5;
+    }
 .sec4-bg{
     background: url(../images/sec2-bg1.jpg) no-repeat fixed bottom center;
     background-size: cover;
