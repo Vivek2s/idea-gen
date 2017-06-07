@@ -124,14 +124,14 @@ a:focus {
     background: url(../images/sec1-bg1.jpg) no-repeat 40% center;
     background-size: cover;
 }
-.logo{
+.logo {
     float: left;
-    padding: 40px;
+    padding: 15px 20px 0;
     padding-bottom: 0px;
 }
 .logo-top{
     float: right;
-    padding: 40px;
+  padding: 15px 20px 0;
     padding-bottom: 0px;
     position: fixed;
     left: 0px;
@@ -241,7 +241,7 @@ a:focus {
     font-size: 18px;
     line-height: normal;
     margin-top: 25px;
-    min-height: 65px;
+
     padding: 15px 20px;
     text-align: left;
     text-transform: uppercase;
@@ -255,7 +255,7 @@ a:focus {
     height: 0px;
 }
 .sec-catergory .selectize-control.single .selectize-input input{
-    font-size: 24px;
+
     color: #666;
     width: auto !important;
     padding-top: 2px !important;
@@ -285,7 +285,7 @@ a:focus {
 }
 .sec-catergory input.sec-input{
     padding: 15px;
-    font-size: 24px;
+
     line-height: normal;
     text-transform: none;
     border: 1px solid #d9dad3;
@@ -969,17 +969,17 @@ section.mouse-bg.sec-outr.new-sec-bg {
     background: #ffffff none repeat scroll 0 0;
 }
 .sec-container.custom-conatiner {
-    margin: 130px auto 0;
+    margin: 90px auto 0;
     width: 100%;
     max-width: 900px;
 }
 section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
-.sec-catergory.custom-select  {
+.sec-catergory.custom-select {
     float: left;
     max-width: 350px;
     padding: 0 10px;
     position: relative;
-    width: 45%;
+    width: 46.85%;
 }
 .sec-catergory.custom-select  .selectize-control.single   .selectize-input.input-active input{  width:1px !important; padding: 0px !important}
 .sec-catergory.custom-select  .selectize-control.single .selectize-input input {
