@@ -1107,3 +1107,11 @@ figure.icons-part {
     width: 100%;
 }
 .funnel-step.bottom{border-right:0px;}
+
+section.sec-outr.new-sec-bg.mouse-bg {
+    display: table !important;
+}
+
+section.sec-outr.new-sec-bg.mouse-bg.hide {
+    display: none !important;
+}
