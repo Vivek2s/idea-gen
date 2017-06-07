@@ -2,6 +2,14 @@
    body{
        overflow-y: scroll;
    }
+   section.mouse-bg.sec-outr.new-sec-bg .sec {
+    text-align: center;
+
+}
+   .sec1-text + .sec1-button {
+    background-position: 30px center !important;
+    background-repeat: no-repeat;
+}
    .funnel-points {
     display: block;
     float: left;
@@ -258,7 +266,7 @@
     margin: 200px auto 0;
     width: 100%;
 }
-.sec-catergory {
+.sec-catergory.custom-select {
     float: left;
     max-width: 350px;
     padding: 0 10px;
