@@ -1,10 +1,47 @@
 @media (min-width: 0px) and (max-width: 767px){
+
    body{       overflow-y: scroll;   }
    section.mouse-bg.sec-outr.new-sec-bg .sec {    text-align: center;}
    .sec1-text + .sec1-button {    background-position: 30px center !important;    background-repeat: no-repeat;}
    .funnel-points {    display: block;    float: left;    margin: 50px 0 0;    width: 100%;}
 .sec1-text h2 {    font-size: 28px;}
 .update-btn > a {      font-size: 14px;    line-height: 1;    min-height: 45px;    padding: 15px 35px;}
+
+   body{
+       overflow-y: scroll;
+   }
+   section.mouse-bg.sec-outr.new-sec-bg .sec {
+    text-align: center;
+
+}
+.sec-catergory.custom-select .selectize-control.single .selectize-dropdown {
+    top: 66px !important;
+    text-align: left;
+}
+   .sec1-text + .sec1-button {
+    background-position: 30px center !important;
+    background-repeat: no-repeat;
+}
+   .funnel-points {
+    display: block;
+    float: left;
+    margin: 50px 0 0;
+    width: 100%;
+}
+.sec1-text h2 {
+    font-size: 28px;
+
+}
+.update-btn > a {
+  
+    font-size: 14px;
+    line-height: 1;
+    min-height: 45px;
+
+    padding: 15px 35px;
+
+}
+
 .sec-catergory.custom-select {
     float: left;
     max-width: 100%;
@@ -158,6 +195,7 @@
     }
     .sec-catergory input.sec-input{
         font-size: 14px;
+        min-height: auto !important
     }
    .sec-button {
     font-size: 14px;
