@@ -402,7 +402,7 @@
     padding: 10px 20px;
 }
 .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-category{top:68px !important;}
-.update-btn > a{min-height: auto;   padding: 13px 35px;}
+.update-btn > a{min-height: auto;   padding: 14px 35px 12px;}
 .sec-catergory.custom-select .selectize-control.single .selectize-input input{font-size: 16px}
 .sec-catergory input.sec-input{min-height: auto; font-size: 20px}
 .sec-catergory .selectize-control.single .selectize-input input{font-size: 20px}
