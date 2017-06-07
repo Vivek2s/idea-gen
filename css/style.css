@@ -330,7 +330,7 @@ a:focus {
     cursor: pointer;
        box-shadow: 4px 12px 21px rgba(251, 95, 102, 0.4);
     float: left;
-    font-family: montserratlight;
+    font-family: montserratregular;
     font-size: 24px;
     height: auto;
     line-height: 1;
@@ -995,13 +995,17 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
     line-height: normal;
     margin-top: 20px;
     min-height: auto;
-    padding: 16px 20px;
+    padding: 11px 20px;
     text-align: left;
     text-transform: none;
     min-height: 55px;
-    line-height: 1;
+    line-height: auto;
 
 }
+.selectize-input.items.has-options.full.has-items .item {
+    padding-top: 4px;
+}
+.sec-catergory.custom-select .selectize-control.single .selectize-input.input-active input{width: 1px !important}
 .sec1-text h2 {
     color: #fb5f66;
     float: left;

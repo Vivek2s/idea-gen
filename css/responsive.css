@@ -1,34 +1,10 @@
 @media (min-width: 0px) and (max-width: 767px){
-   body{
-       overflow-y: scroll;
-   }
-   section.mouse-bg.sec-outr.new-sec-bg .sec {
-    text-align: center;
-
-}
-   .sec1-text + .sec1-button {
-    background-position: 30px center !important;
-    background-repeat: no-repeat;
-}
-   .funnel-points {
-    display: block;
-    float: left;
-    margin: 50px 0 0;
-    width: 100%;
-}
-.sec1-text h2 {
-    font-size: 28px;
-
-}
-.update-btn > a {
-  
-    font-size: 14px;
-    line-height: 1;
-    min-height: 45px;
-
-    padding: 15px 35px;
-
-}
+   body{       overflow-y: scroll;   }
+   section.mouse-bg.sec-outr.new-sec-bg .sec {    text-align: center;}
+   .sec1-text + .sec1-button {    background-position: 30px center !important;    background-repeat: no-repeat;}
+   .funnel-points {    display: block;    float: left;    margin: 50px 0 0;    width: 100%;}
+.sec1-text h2 {    font-size: 28px;}
+.update-btn > a {      font-size: 14px;    line-height: 1;    min-height: 45px;    padding: 15px 35px;}
 .sec-catergory.custom-select {
     float: left;
     max-width: 100%;
@@ -112,6 +88,7 @@
     top: 65px !important;
 }
 .sec1-text + .sec1-button{padding:12px 30px 12px 60px;}
+
 .sec-catergory .selectize-control.single .selectize-input{min-height: auto; padding: 12px 20px}
     .sec-container {    margin: 40px auto 0;    width: 100%;}
     .sec1-button {    font-size: 18px;    margin-left: 0;    margin-top: 35px;    max-width: 100%;    min-height: auto;    min-width: auto;    padding: 12px 40px; }
@@ -164,7 +141,7 @@
         top: 86px !important;
         width: 100% !important;
     }
-    .sec-catergory input.sec-input{margin-top: 20px !important;}
+    .sec-catergory input.sec-input{margin-top: 20px !important; min-height: auto !important}
    .sec2-step {
     left: 0;
     margin-bottom: 10px;
@@ -253,13 +230,7 @@
     }*/
     .xs-img-hover{padding-bottom: 57% !important;}
 }
-@media (min-width: 0px) and (max-width: 767px) and (orientation: portrait) {
-    
-    
-}
-@media (min-width: 0px) and (max-width: 767px) and (orientation: landscape) {
-   
-}
+
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .sec-container {
@@ -379,22 +350,38 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1365px) {
+@media (min-width: 768px) and (max-width: 1365px) {
     .sec2-step {
     left: -45px;
     position: relative;
     top: 0;
     width: auto;
 }
-   .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {
-
-    top: 80px !important;
+.sec-catergory.custom-select .selectize-control.single .selectize-input {
+    font-size: 16px;
+    margin-top: 20px;
+    min-height: auto;
+    padding: 12px 20px;
 }
-}   
-
-@media (min-width: 1680px) and (max-width: 1920px){
-    .sec-container{
-        margin: 0 auto;
+.sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-category{top:68px !important;}
+.update-btn > a{min-height: auto;   padding: 13px 35px;}
+.sec-catergory.custom-select .selectize-control.single .selectize-input input{font-size: 16px}
+.sec-catergory input.sec-input{min-height: auto; font-size: 20px}
+.sec-catergory .selectize-control.single .selectize-input input{font-size: 20px}
+.sec-catergory .selectize-control.single .selectize-input{min-height: auto;}
+.sec1-text + .sec1-button {    background-position: 40px center;    background-repeat: no-repeat;}
+.sec1-text h1 {    font-size: 50px;}
+.sec-button {
+    font-size: 22px;
+    min-height: auto;
+    min-width: auto;
+    padding: 13px 35px;
+    line-height: 24px;
+}
+.sec1-button {        font-size: 22px;    margin-left: 0;    margin-top: 20px;   line-height: 24px; min-height: auto;    min-width: auto;    padding: 13px 35px 13px 65px;    text-decoration: none;    text-transform: uppercase;}   
+.demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {    top: 80px !important;}
+}
+   @media (min-width: 1680px) and (max-width: 1920px){    .sec-container{        margin: 0 auto;
         margin-top: 130px;
         width: 1280px;
     }
