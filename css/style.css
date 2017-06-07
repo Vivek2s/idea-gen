@@ -166,10 +166,10 @@ a:focus {
     font-family: montserratregular;
     font-size: 30px;
     margin-left: 0;
-    margin-top: 55px;
-    min-height: 80px;
+    margin-top: 40px;
+    min-height: 77px;
     min-width: 380px;
-    padding: 20px 60px 20px 90px;
+    padding: 18px 60px 18px 90px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -240,11 +240,12 @@ a:focus {
     color: #0f0e0e;
     font-size: 18px;
     line-height: normal;
-    margin-top: 20px;
+    margin-top: 25px;
     min-height: 65px;
     padding: 15px 20px;
     text-align: left;
     text-transform: uppercase;
+        box-shadow: 3px 0 40px rgba(0, 0, 0, 0.2);
 }
 .sec-catergory .selectize-control.single .selectize-input:after{
     border-color: #999 transparent transparent transparent;
@@ -257,6 +258,7 @@ a:focus {
     font-size: 24px;
     color: #666;
     width: auto !important;
+    padding-top: 2px !important;
 }
 .sec-catergory .selectize-control.single .selectize-input.dropdown-active:after{
     border-color: transparent transparent #999 transparent;
@@ -288,12 +290,13 @@ a:focus {
     border: 1px solid #d9dad3;
     border-radius: 0px;
     color: #666;
-    margin-top: 35px;
+    margin-top: 12px;
     background: #fff;
     width: 100%;
     max-width: 660px;
        font-family: montserratregular;
        box-shadow: 3px 0 40px rgba(0, 0, 0, 0.2);
+       min-height: 65px;
 }
 .sec-catergory input.sec-input::placeholder {
     opacity: 0.5;
@@ -959,7 +962,7 @@ span.alert.alert-danger {
     border-color: #d9dad3;
     color: #999999;
     text-align: left;
-    top:92px !important
+    top:85px !important
 }
 section.mouse-bg.sec-outr.new-sec-bg {
     background: #ffffff none repeat scroll 0 0;
@@ -1052,12 +1055,15 @@ figure.icons-part {
 .funnel-step h4 {
     color: #81878a;
     float: left;
-      font-family: 'montserratlight';
+      font-family: 'montserratregular';
     font-size: 18px;
     font-weight: normal;
     margin: 40px 0;
     text-transform: uppercase;
     width: 100%;
+}
+.sec-catergory.custom-select .selectize-control.single .selectize-input {
+    box-shadow: none;
 }
 .funnel-step {
     border-right: 1px solid rgba(136, 136, 136, 0.533);
