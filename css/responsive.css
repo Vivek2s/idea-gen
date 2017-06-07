@@ -6,6 +6,10 @@
     text-align: center;
 
 }
+.sec-catergory.custom-select .selectize-control.single .selectize-dropdown {
+    top: 66px !important;
+    text-align: left;
+}
    .sec1-text + .sec1-button {
     background-position: 30px center !important;
     background-repeat: no-repeat;
@@ -181,6 +185,7 @@
     }
     .sec-catergory input.sec-input{
         font-size: 14px;
+        min-height: auto !important
     }
    .sec-button {
     font-size: 14px;
