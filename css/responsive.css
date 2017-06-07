@@ -10,7 +10,7 @@
     .bottom figure.icons-part {    background-position: -65px center;}
    .sec-catergory .selectize-control.single .selectize-input input {    font-size: 18px;      padding-top: 2px !important;}
    .sec-catergory .selectize-control.single .selectize-input {       font-size: 18px;    margin-top: 25px;    min-height: 55px;    padding: 15px 20px;}
-     .sec-catergory.custom-select .selectize-control.single .selectize-input{   font-size: 18px;    margin-top: 25px;    min-height: 55px;    padding: 15px 20px;}
+ .sec-catergory.custom-select .selectize-control.single .selectize-input {       font-size: 16px;    margin-top: 25px;    min-height: 50px;    padding: 12px 20px;}
      .funnel-step h4 {    font-size: 17px;    font-weight: normal;    margin: 25px 0;    text-transform: uppercase;    width: 100%;}
    .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {    top: 75px !important;}
    .sec-catergory input.sec-input {    padding: 15px 20px;    font-size: 18px;    margin-top: 12px;    min-height: 55px;}
@@ -33,7 +33,7 @@
    .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select  .demo-default .selectize-dropdown.single.demo-default.selectize-category{top: 75px !important;}
    .sec-catergory input.sec-input {    padding: 15px 20px;    font-size: 16px;    margin-top: 12px;    min-height: 50px;}
    .funnel-step h4 {    font-size: 16px;    font-weight: normal;    margin: 25px 0;    text-transform: uppercase;    width: 100%;}
-   .update-btn > a {        font-size: 16px;    line-height: initial;    min-height: initial;    min-width: initial;    padding: 16px 35px 14px;}
+   .update-btn > a {        font-size: 16px;    line-height: initial;    min-height: 50px;    min-width: initial;    padding: 15px 35px 12px;}
 }
 @media (min-width: 1024px) and (max-width: 1365px){
     .sec1-button {        font-size: 15px;    margin-left: 0;    margin-top: 40px;    min-height: initial;    min-width: initial;    padding: 13px 40px 13px 60px;}
@@ -72,16 +72,16 @@
    .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .demo-default .selectize-dropdown.single.demo-default.selectize-category {    top: 70px !important;}
       .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select  .demo-default .selectize-dropdown.single.demo-default.selectize-category{top: 70px !important;}
    .sec-catergory input.sec-input {    padding: 12px 20px;    font-size: 14px;    margin-top: 12px;    min-height: 45px;}
-   .sec2-step {    left: -50px;    position: absolute;    top: -90px;    width: auto;}
+   .sec2-step {    left: 20px;    position: absolute;    top: -90px;    width: auto;}
      .sec-container {        margin: 0 auto;        margin-top: 100px;        width:90%;    }
-     .sec2-step {    left: -20px;}
+    
      .sec2-bg .sec-container , .sec3-bg .sec-container , .sec4-bg .sec-container{        margin: 0 auto;        width: 90%;    }
      .sec-catergory .selectize-control.single .selectize-input:after {    border-width: 6px 5px 0 5px;}
      .sec-catergory .selectize-control.single .selectize-input.dropdown-active:after{    border-width: 0 5px 6px 5px;    }
      .sec-container.custom-conatiner .selectize-input.items.has-options.full.has-items .item {    padding-top: 2px !important;    line-height: initial;}
     .update-btn > a {        font-size: 15px;    line-height: initial;    min-height: initial;    min-width: initial;    padding: 14px 35px 12px;}
     .sec-catergory.custom-select {    float: none;    max-width: 350px;    padding: 0 5px;    position: relative;    width: 34.85%;    display: inline-block;}
-   .update-btn {    float: none;    margin-top: 20px;    padding-left: 5px;    display: inline-block;}
+   .update-btn {    float: none;       padding-left: 5px;    display: inline-block;}
      .update-section {    float: left;    width: 100%;    text-align: center;    padding: 0 10px 0 0;}
      figure.icons-part {    height: 100px;    width: 100px; background-position: 35px center}
     .middle figure.icons-part {    background-position: -175px center;}
@@ -90,11 +90,16 @@
        .funnel-step li a{ font-size: 14px;  }
        .funnel-step {    padding: 0 10px 80px;    text-align: center;}
            .sec1-text h2 {    font-size: 28px;}
+           .sec-catergory {    float: left;    width: 60%;    position: relative;}
+           .sec2-bg .sec-container, .sec3-bg .sec-container, .sec4-bg .sec-container {
+    padding-left: 70px;
+}
 
   }
   @media  (max-width: 639px){ 
    .sec-catergory.custom-select .demo-default .selectize-dropdown.single.demo-default.selectize-sub-category, .sec-catergory.custom-select  .demo-default .selectize-dropdown.single.demo-default.selectize-category{top: 70px !important;}
      body{       overflow-y: scroll;   }
+      .sec1-button {        font-size: 14px;    margin-left: 0;    margin-top: 40px;    min-height: initial;    min-width: initial;    padding: 12px 35px 12px 55px;}
        .funnel-step h4 {    font-size: 13px;    font-weight: normal;    margin: 20px 0;   }
        .funnel-step li a{ font-size: 13px;  }
          .funnel-step li a br{ display: none  }
@@ -175,7 +180,7 @@
 }
 .update-btn {
     float: left;
-    margin-top: 20px;
+
     padding-left: 0;
     text-align: center;
     width: 100%;
@@ -219,7 +224,7 @@
 
 .sec-catergory .selectize-control.single .selectize-input{min-height: auto; padding: 12px 20px}
     .sec-container {    margin: 40px auto 0;    width: 100%;}
-    .sec1-button {    font-size: 18px;    margin-left: 0;    margin-top: 35px;    max-width: 100%;    min-height: auto;    min-width: auto;    padding: 12px 40px; }
+   
     .sec1-text h1 {    font-size: 26px;    width: 100%;}
     .logo-top{
         right: 0px;

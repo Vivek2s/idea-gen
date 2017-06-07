@@ -1001,7 +1001,7 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
     padding: 11px 20px;
     text-align: left;
     text-transform: none;
-    min-height: 55px;
+
     line-height: auto;
 
 }
@@ -1032,9 +1032,9 @@ section.mouse-bg.sec-outr.new-sec-bg .sec{vertical-align: top}
     float: left;
     font-size: 16px;
     line-height: 1;
-    min-height: 55px;
+    min-height: 50px;
     min-width: 140px;
-    padding: 18px 35px 16px;
+    padding: 16px 35px 10px;
     text-decoration: none;
     text-transform: uppercase;
      transition:0.5s;
@@ -1065,7 +1065,7 @@ figure.icons-part {
       font-family: 'montserratregular';
     font-size: 18px;
     font-weight: normal;
-    margin: 40px 0;
+  margin: 25px 0;
     text-transform: uppercase;
     width: 100%;
 }
@@ -1088,7 +1088,7 @@ figure.icons-part {
 }
 .update-btn {
     float: left;
-    margin-top: 20px;
+    margin-top: 25px;
     padding-left: 10px;
 }
 .update-btn > a:hover{background-color: #fb5f66; transition:0.5s; color: #fff}
