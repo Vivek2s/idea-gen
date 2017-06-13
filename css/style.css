@@ -227,6 +227,18 @@ a:focus {
     position: relative;
     text-align: center;
 }
+.sec3-bg .sec-container{
+    margin: 0 auto;
+    width: 885px;
+    position: relative;
+    text-align: center;
+}
+.sec4-bg .sec-container{
+    margin: 0 auto;
+    width: 885px;
+    position: relative;
+    text-align: center;
+}
 .sec-catergory{
     float: left;
     width: 50%;
@@ -848,6 +860,7 @@ span.alert.alert-danger {
     float: left;
     margin-left: 15px;
     margin-top: 7px;
+    text-align: left;
 }
 
 .alert.alert-danger i.material-icons {
