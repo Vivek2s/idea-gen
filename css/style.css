@@ -1094,6 +1094,7 @@ figure.icons-part {
     margin-top: 25px;
     padding-left: 10px;
 }
+.selectize-control{text-align: left !important}
 .update-btn > a:hover{background-color: #fb5f66; transition:0.5s; color: #fff}
 .funnel-step li a:hover{color: #fb5f66; transition:0.5s;}
 .funnel-step li a {
@@ -1103,7 +1104,7 @@ figure.icons-part {
     line-height: 26px;
     text-decoration: none;
     transition:0.5s;
-    display: block
+    display: block;
 }
 .funnel-step li {
     display: inline-block;
