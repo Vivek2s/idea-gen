@@ -73,6 +73,7 @@ function sendResponse(){
     // requestBuild(data);
     $.ajax({
         type:'POST',
+        crossDomain: true,
         url: link.getResponseLink(),
         data: JSON.stringify(data),
         success:function(response){
