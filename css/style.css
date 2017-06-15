@@ -850,6 +850,7 @@ z-index: 9 !important;
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 90%;
+    text-transform: none;
 }
 
 span.alert.alert-danger {
@@ -872,7 +873,7 @@ span.alert.alert-danger {
 .selectize-dropdown [data-selectable], .selectize-dropdown .optgroup-header {
     padding: 8px 16px !important;
     font-size: 13px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .loader-wrapper {
     float: left;
@@ -1076,7 +1077,7 @@ figure.icons-part {
     width: 120px;
 }
 .funnel-step h4 {
-    color: #81878a;
+    color: #999;
     float: left;
       font-family: 'montserratregular';
     font-size: 18px;
@@ -1092,7 +1093,7 @@ figure.icons-part {
     border-right: 1px solid #d9dad3;;
     flex: 1 1 0;
 
-    padding: 0 15px 100px;
+    padding: 0 15px 10px;
     text-align: center;
  
 }
@@ -1111,7 +1112,7 @@ figure.icons-part {
 .update-btn > a:hover{background-color: #fb5f66; transition:0.5s; color: #fff}
 .funnel-step li a:hover{color: #fb5f66; transition:0.5s;}
 .funnel-step li a {
-    color: #98a1a8;
+    color: #222;
     font-family: montserratlight;
     font-size: 16px;
     line-height: 26px;
@@ -1123,6 +1124,8 @@ figure.icons-part {
     display: inline-block;
     margin-bottom: 20px;
     width: 100%;
+    padding:0 15px;
+    box-sizing: border-box;
 }
 .funnel-step ul {
     float: left;
